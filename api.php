@@ -1,5 +1,5 @@
 <?php
-$rest_api_url = "https://bing.com/webmaster/api.svc/json/SubmitUrlbatch?apikey=ad0fa3db354346b8b9dbe5d9d673dc64";
+$rest_api_url = "https://bing.com/webmaster/api.svc/json/SubmitUrlbatch?apikey=<API_KEY>";
 
 $data_string = json_encode([
      'siteUrl'    => 'https://utpland.com',
